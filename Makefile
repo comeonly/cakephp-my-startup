@@ -13,7 +13,7 @@ build:
 	@curl -sS https://getcomposer.org/installer | php
 	@echo "Install Composer Packages..."
 	@php composer.phar install
-	@php -d "apc.enable_cli=1" ./Vendor/bin/cake.php --app ${PWD} bake project ${PWD} --empty --skel=./Console/Templates/skel
+	@php -d "apc.enable_cli=1" ./Vendor/bin/cake.php --app ${PWD} bake project ${PWD} --empty
 	@chmod -R 0777 ./tmp
 	@php -d "apc.enable_cli=1" ./Vendor/bin/cake.php --app ${PWD} bake db_config
 	@echo "Install Bower Components..."

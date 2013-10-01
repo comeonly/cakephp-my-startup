@@ -2,6 +2,8 @@
 
 This project is expected to continue to change me to be easy to use.
 
+forked from [slywalker/cakephp-my-startup](https://github.com/slywalker/cakephp-my-startup)
+
 ##Require
 
 	$ npm -g install bower
@@ -14,14 +16,21 @@ This project is expected to continue to change me to be easy to use.
 * Install Conposer Packages
 	* pear-cakephp/cakephp
 	* cakephp/debug_kit
-	* slywalker/base
-	* slywalker/boost_cake
-* Bake Project with costum skel
+	* ~~slywalker/base~~
+	* ~~slywalker/boost_cake~~
+	* (add) slywalker/twitter_bootstrap
+	* slywalker/debug_kit_plus
+	* mjohnson/uploader
+	* cakedc/migrations
+	* cakedc/search
+* Bake Project ~~with costum skel~~
 * Bake DbConfig
 * Install Bower Conponents
 	* jquery
 	* bootstrap
 	* html5shiv
+    * fuelux
+    * bootstrap-datetimepicker
 
 ##Update
 
